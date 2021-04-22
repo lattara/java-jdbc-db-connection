@@ -12,9 +12,9 @@ public class Main {
             throw new RuntimeException(e);
         }
 
-        String url = "jdbc:mysql://localhost:3306/portfolio_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT";
-        String username = "root";
-        String password = "jasam4242";
+        String url = "jdbc:mysql://localhost:3306/DB_NAME?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT";
+        String username = "username";
+        String password = "pass";
         String query = "select * from education";
         Connection connection = null;
         Statement stmt = null;
